@@ -1,0 +1,15 @@
+.item {
+    background-color: azure;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &:hover {
+        background-color: yellow ;
+    }
+}
